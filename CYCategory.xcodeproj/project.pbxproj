@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26917C4C1DAF3C63007FBA8D /* CYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 26917C4B1DAF3C63007FBA8D /* CYCategory.m */; };
+		26917C4D1DAF3C63007FBA8D /* CYCategory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 26917C4A1DAF3C63007FBA8D /* CYCategory.h */; };
+		26917C581DAF3EAF007FBA8D /* UIButton+Expansion.m in Sources */ = {isa = PBXBuildFile; fileRef = 26917C571DAF3EAF007FBA8D /* UIButton+Expansion.m */; };
+		26917C611DAF3F20007FBA8D /* UILabel+StringFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 26917C601DAF3F20007FBA8D /* UILabel+StringFrame.m */; };
+		26917C641DAF3F4D007FBA8D /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 26917C631DAF3F4D007FBA8D /* UIBarButtonItem+Badge.m */; };
+		26917C671DAF3F93007FBA8D /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 26917C661DAF3F93007FBA8D /* UIColor+Hex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26917C451DAF3C63007FBA8D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				26917C4D1DAF3C63007FBA8D /* CYCategory.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		26917C471DAF3C63007FBA8D /* libCYCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCYCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		26917C4A1DAF3C63007FBA8D /* CYCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYCategory.h; sourceTree = "<group>"; };
+		26917C4B1DAF3C63007FBA8D /* CYCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYCategory.m; sourceTree = "<group>"; };
+		26917C561DAF3EAF007FBA8D /* UIButton+Expansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Expansion.h"; sourceTree = "<group>"; };
+		26917C571DAF3EAF007FBA8D /* UIButton+Expansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Expansion.m"; sourceTree = "<group>"; };
+		26917C5F1DAF3F20007FBA8D /* UILabel+StringFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+StringFrame.h"; sourceTree = "<group>"; };
+		26917C601DAF3F20007FBA8D /* UILabel+StringFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+StringFrame.m"; sourceTree = "<group>"; };
+		26917C621DAF3F4D007FBA8D /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		26917C631DAF3F4D007FBA8D /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		26917C651DAF3F93007FBA8D /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		26917C661DAF3F93007FBA8D /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26917C441DAF3C63007FBA8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26917C3E1DAF3C63007FBA8D = {
+			isa = PBXGroup;
+			children = (
+				26917C491DAF3C63007FBA8D /* CYCategory */,
+				26917C481DAF3C63007FBA8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26917C481DAF3C63007FBA8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26917C471DAF3C63007FBA8D /* libCYCategory.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26917C491DAF3C63007FBA8D /* CYCategory */ = {
+			isa = PBXGroup;
+			children = (
+				26917C4A1DAF3C63007FBA8D /* CYCategory.h */,
+				26917C4B1DAF3C63007FBA8D /* CYCategory.m */,
+				26917C561DAF3EAF007FBA8D /* UIButton+Expansion.h */,
+				26917C571DAF3EAF007FBA8D /* UIButton+Expansion.m */,
+				26917C5F1DAF3F20007FBA8D /* UILabel+StringFrame.h */,
+				26917C601DAF3F20007FBA8D /* UILabel+StringFrame.m */,
+				26917C621DAF3F4D007FBA8D /* UIBarButtonItem+Badge.h */,
+				26917C631DAF3F4D007FBA8D /* UIBarButtonItem+Badge.m */,
+				26917C651DAF3F93007FBA8D /* UIColor+Hex.h */,
+				26917C661DAF3F93007FBA8D /* UIColor+Hex.m */,
+			);
+			path = CYCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26917C461DAF3C63007FBA8D /* CYCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26917C501DAF3C63007FBA8D /* Build configuration list for PBXNativeTarget "CYCategory" */;
+			buildPhases = (
+				26917C431DAF3C63007FBA8D /* Sources */,
+				26917C441DAF3C63007FBA8D /* Frameworks */,
+				26917C451DAF3C63007FBA8D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYCategory;
+			productName = CYCategory;
+			productReference = 26917C471DAF3C63007FBA8D /* libCYCategory.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26917C3F1DAF3C63007FBA8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ChengYi;
+				TargetAttributes = {
+					26917C461DAF3C63007FBA8D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 26917C421DAF3C63007FBA8D /* Build configuration list for PBXProject "CYCategory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26917C3E1DAF3C63007FBA8D;
+			productRefGroup = 26917C481DAF3C63007FBA8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26917C461DAF3C63007FBA8D /* CYCategory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26917C431DAF3C63007FBA8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26917C611DAF3F20007FBA8D /* UILabel+StringFrame.m in Sources */,
+				26917C671DAF3F93007FBA8D /* UIColor+Hex.m in Sources */,
+				26917C4C1DAF3C63007FBA8D /* CYCategory.m in Sources */,
+				26917C641DAF3F4D007FBA8D /* UIBarButtonItem+Badge.m in Sources */,
+				26917C581DAF3EAF007FBA8D /* UIButton+Expansion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26917C4E1DAF3C63007FBA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26917C4F1DAF3C63007FBA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26917C511DAF3C63007FBA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		26917C521DAF3C63007FBA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26917C421DAF3C63007FBA8D /* Build configuration list for PBXProject "CYCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26917C4E1DAF3C63007FBA8D /* Debug */,
+				26917C4F1DAF3C63007FBA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26917C501DAF3C63007FBA8D /* Build configuration list for PBXNativeTarget "CYCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26917C511DAF3C63007FBA8D /* Debug */,
+				26917C521DAF3C63007FBA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26917C3F1DAF3C63007FBA8D /* Project object */;
+}
