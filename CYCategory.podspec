@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/ezrealCheng/CYCategory'
   s.author   = { '程宜' => 'ezreal_cheng@sina.com' } 
   s.source   = { :git => 'https://github.com/ezrealCheng/CYCategory.git', :tag => "0.0.2" } 
-  s.platform = :ios 
+  s.platform = :ios, "5.0" 
   s.source_files = 'CYCategory/*'  
   s.framework = 'UIKit' 
   s.requires_arc = true
